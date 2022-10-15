@@ -8,6 +8,6 @@ task 6: A program that prints all single digit numbers of base 10 starting from 
 task 7: A program that prints the lowercase alphabet in reverse, followed by a new line.
 task 8: A program that prints all the numbers of base 16 in lowercase, followed by a new line.
 task 9: A program that prints all possible combinations of single-digit numbers.
-task 10: 
-task 11: 
-task 12: 
+task 10: A rogram that prints all possible different combinations of two digits. 
+task 11: A Program that prints all possible different combinations of three digits.
+task 12: A Program that prints all possible combinations of two two-digit numbers.
