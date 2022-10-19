@@ -8,8 +8,13 @@
  */
 int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z'0 || (c >= 'A' && C <= 'Z'))
+	if ((c >= 97 && c <= 122) || (c >= 65 && C <= 90))
+	{
 		return (1);
+	}
 	else
+	{
 		return (0);
+	}
+	_putchar('\n');
 }
