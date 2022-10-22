@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-	int i;
+	int n;
 
 	printf("1");
-	for (i = 2; i <= 100; i++)
+	for (n = 2; n <= 100; n++)
 	{
-		print(" ");
-		if (i % 3 == 0)
+		printf(" ");
+		if (n % 3 == 0)
 			printf("Fizz");
-		if (i % 5 == 0)
+		if (n % 5 == 0)
 			printf("Buzz");
-		if (i % 3 != 0 && i % 5 != 0)
-			printf("%d", i);
+		if (n % 3 != 0 && n % 5 != 0)
+			printf("%d", n);
 	}
 	print("\n");
 	return (0);
