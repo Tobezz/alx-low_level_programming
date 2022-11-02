@@ -1,4 +1,3 @@
- * factorial - factorial of int
 #include "main.h"
  /**
   * @n:int
