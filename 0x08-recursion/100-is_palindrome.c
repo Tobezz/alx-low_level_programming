@@ -11,12 +11,12 @@ int _strlen_recursion(char *s)
 	return (0);
 }
 /**
-   * pal_checker - check if s is palindrome.
-    * @s: string base address.
-     * @i: left index.
-      * @j: rigth index.
-       * Return: 1 if s is palindrome, 0 otherwise.
-        */
+ * pal_checker - check if s is palindrome.
+ * @s: string base address.
+ * @i: left index.
+ * @j: rigth index.
+ * Return: 1 if s is palindrome, 0 otherwise.
+ */
 int pal_checker(char *s, int i, int j)
 {
 	if (s[i] == s[j])
