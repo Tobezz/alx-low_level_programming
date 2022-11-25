@@ -1,4 +1,4 @@
-nclude<stdio.h>
+#include<stdio.h>
 
 /**
  * myStartupFun - Apply the constructor attribute to myStartupFun() so that it
